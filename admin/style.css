@@ -1,0 +1,53 @@
+img{
+	border:0;
+}
+body{
+	background-color:#dddddd;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;
+}
+#menu{
+	background-color:#eee;
+	padding:10px;
+}
+#obsah{
+	background-color:white;
+	padding:10px;
+	min-height:300px;
+	line-height:25px;
+}
+a{
+	color:#009;
+	text-decoration:none;
+}
+a:hover{
+	color:#900;
+	text-decoration:underline;
+}
+label{
+	width:110px;
+	display:block;
+	float:left;
+}
+.vstup{
+	border:1px solid #999;
+	padding:5px;
+	width:300px;
+	margin-bottom:5px;
+}
+#ok{
+	border:1px solid #030;
+	color:#030;
+	padding:5px;
+	text-align:center;
+	background-color:#CFF;
+	margin-bottom:5px;
+}
+#err{
+	border:1px solid #900;
+	color:#900;
+	padding:5px;
+	text-align:center;
+	background-color:#FCC;
+	margin-bottom:5px;
+}

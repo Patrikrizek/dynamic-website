@@ -1,0 +1,178 @@
+img{
+	border:0;
+}
+body{
+	background-color:#dddddd;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.8em;
+}
+#obalStranky{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#hlavicka{
+	height:157px;
+	background-image:url(../obrazky/hlavicka.png);
+	background-repeat:no-repeat;
+}
+#logo{
+	float:left;
+	padding-top:40px;
+	padding-left:30px;
+}
+#nadpisy{
+	clear:right;
+	float:right;
+	padding-top:40px;
+	padding-right:30px;
+	text-align:right;
+}
+h1{
+	font-size:1em;
+	color:white;
+}
+h2{
+	font-size:0.9em;
+	color:#cccccc;
+}
+#stred{
+	clear:both;
+	min-height:150px;
+	background-color:white;
+}
+#levySloupec{
+	width:200px;
+	float:left;
+}
+#menu{
+	padding:5px;
+}
+.menuLink{
+	background-image:url(../obrazky/menuZnak.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	color:#999;
+	text-decoration:none;
+}
+.menuLink:hover{
+	background-image:url(../obrazky/menuZnakHover.png);
+	text-decoration:underline;
+	color:#333;
+	text-decoration:underline;
+}
+#obsah{
+	width:580px;
+	clear:right;
+	float:right;
+	padding:10px;
+}
+#obsah h3{
+	margin:0;
+	padding:0;
+	color:#077;
+	font-size:1.4em;
+}
+#obsah p{
+	text-align:justify;
+	line-height:20px;
+	padding-top:10px;
+}
+#obsah a{
+	color:#066;
+	text-decoration:underline;
+}
+#obsah a:hover{
+	color:black;
+	text-decoration:none;
+}
+
+#paticka{
+	clear:both;
+	background-image:url(../obrazky/paticka.png);
+	height:38px;
+	text-align:center;
+	padding-top:20px;
+	color:#dddddd;
+}
+#paticka a{
+	color:#ddd;
+	text-decoration:underline;
+}
+#paticka a:hover{
+	color:fff;
+	text-decoration:none;
+}
+
+/* Kniha navstev */
+#obsah .prispevek{
+	width: 570px;
+	margin-left: 10px;
+	border: 1px solid #999;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border-radius: 5px;
+	color: #555;
+}
+
+#obsah .horniRadek{
+	background-color: #ccc;
+	height: 20px;
+	border-radius: 5px;
+}
+
+#obsah .pridal{
+	float: left;
+	padding-left: 5px;
+}
+
+#obsah .prispevek strong {
+	color: #222;
+}
+
+#obsah .datum{
+	text-align: right;
+	float: right;
+	clear: right;
+	padding-right: 5px;
+	color: #555;
+}
+
+#obsah .textPrispevku{
+	padding: 8px;
+	color: #333;
+	clear: both;
+}
+
+#obsah .knihanavstev{
+	text-align: center;
+	margin-top: 30px;
+	border-top: 1px dotted #999;
+	padding-top: 15px;
+}
+
+#obsah .knihanavstev textarea{
+	height: 100px;
+}
+
+#obsah .strankovani{
+	text-align: center;
+	padding-top: 15px;
+}
+
+#obsah .strankovani strong{
+	color: #066;
+}
+
+#obsah .strankovani a{
+	color: #555;
+	text-decoration: underline;
+}
+
+#obsah .strankovani a:hover{
+	color: #000;
+	text-decoration: none;
+}
